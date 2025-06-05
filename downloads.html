@@ -55,6 +55,12 @@
             text-align: center;
             margin-top: 30px;
         }
+        .recommended-download {
+            border: 2px solid #4CAF50; /* Green border for emphasis */
+            box-shadow: 0 0 10px rgba(76, 175, 80, 0.5); /* Subtle glow */
+            background-color: #e8f5e9; /* Lighter green background */
+            color: #2e7d32; /* Darker green text for contrast */
+        }
     </style>
 </head>
 <body>
@@ -62,20 +68,41 @@
         <h1>Download Interview Proctor</h1>
         <p>Please select the appropriate version for your system.</p>
 
-        <a href="https://binp.github.io/aiproctor/packages/InterviewProctor-arm64.pkg" download="InterviewProctor-arm64.pkg" class="download-link">
+        <a id="macos-arm-link" href="https://binp.github.io/aiproctor/packages/latest/InterviewProctor-arm64.pkg" download="InterviewProctor-arm64.pkg" class="download-link">
             Download for macOS (Apple Silicon, arm64)
         </a>
-        <a href="https://binp.github.io/aiproctor/packages/InterviewProctor-amd64.pkg" download="InterviewProctor-amd64.pkg" class="download-link">
+        <a id="macos-intel-link" href="https://binp.github.io/aiproctor/packages/latest/InterviewProctor-amd64.pkg" download="InterviewProctor-amd64.pkg" class="download-link">
             Download for macOS (Intel, amd64)
         </a>
-        <a href="https://binp.github.io/aiproctor/packages/InterviewProctor-amd64-setup.exe" download="InterviewProctor-amd64-setup.exe" class="download-link">
+        <a id="windows-link" href="https://binp.github.io/aiproctor/packages/latest/InterviewProctor-amd64-setup.exe" download="InterviewProctor-amd64-setup.exe" class="download-link">
             Download for Windows (64-bit)
         </a>
-
         <p class="note">
             After downloading, please run the installer and follow the on-screen instructions.
         </p>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const userAgent = navigator.userAgent.toLowerCase();
+            const platform = navigator.platform.toLowerCase();
+
+            const macosArmLink = document.getElementById('macos-arm-link');
+            const macosIntelLink = document.getElementById('macos-intel-link');
+            const windowsLink = document.getElementById('windows-link');
+
+            const recommendedClass = 'recommended-download';
+
+            if (platform.includes('mac') || userAgent.includes('mac os x')) {
+                // For macOS, highlight both as it's hard to distinguish arch reliably
+                macosArmLink.classList.add(recommendedClass);
+                macosIntelLink.classList.add(recommendedClass);
+            } else if (platform.includes('win') || userAgent.includes('windows')) {
+                windowsLink.classList.add(recommendedClass);
+            }
+            // No "else" needed, as all links remain visible by default.
+        });
+    </script>
 </body>
 </html>
 
