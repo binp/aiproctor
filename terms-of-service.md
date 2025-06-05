@@ -1,178 +1,128 @@
 **Terms of Service for Interview Proctor**
 
-**Effective Date:** 2025-05-19
+**Last Updated:** June 5, 2025
 
-Welcome to Interview Proctor (the "Add-on"), a Google Meet add-on provided by AI Proctor ("we," "us," or "our"). These Terms of Service ("Terms") govern your access to and use of our Add-on. By installing, accessing, or using the Add-on, you ("User," "you," or "your") agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, do not install or use the Add-on.
+Welcome to Interview Proctor\! These Terms of Service ("Terms") govern your use of the Interview Proctor software, which includes the Google Meeting Add-on and the Systray application (collectively, the "Software"), provided by Binbin Peng ("we," "us," or "our").
 
-**1. Description of the Service**
+By downloading, installing, accessing, or using the Software, you signify that you have read, understood, and agree to be bound by these Terms. If you do not agree to these Terms, do not use the Software.
 
-Interview Proctor is a Google Meet add-on designed to assist interview hosts by providing tools to document and assess interview sessions conducted via Google Meet.
+**1\. Description of the Software**
 
-**Key Features and Data Collection (Host Mode):**
-When used in "Host Mode" by an authorized user (the "Host"), and with the Host's explicit action or configuration, the Add-on has the capability to:
-* **Collect Screenshots:** Capture screenshots of the meeting interface or specific windows as designated by the Host during a Google Meet session.
-* **Collect Information on Running Processes:** Gather information about software processes running on the Host's machine during the Google Meet session where the Add-on is active.
-* **Collect Information on Open Chrome Tabs:** Identify the titles or URLs of Chrome browser tabs open on the Host's machine during the Google Meet session where the Add-on is active.
+Interview Proctor is a software solution designed to facilitate and monitor remote interviews. It consists of two main components:
 
-The specific and limited purpose(s) for collecting this information is/are to provide contextual information to the Host during technical interviews. This information is collected for the Host's use and is subject to the storage and security measures outlined in our Privacy Policy.
+* **Google Meeting Add-on:** This component integrates with Google Meet and offers two distinct modes:  
+  * **Interviewer Mode:** For use by the individual or entity conducting the interview (the "Interviewer") to evaluate a candidate's skills and abilities. In this mode, the Interviewer can view specific information collected from the Candidate's computer (as detailed below) via our backend server.  
+  * **Candidate Mode:** For use by the individual participating in the interview (the "Candidate") to demonstrate their skills and abilities. This mode provides instructions for installing the Systray App and facilitates the collection and transmission of information to the Interviewer.  
+* **Systray App:** This application runs on the Candidate's computer. It is initiated through the Google Meeting Add-on by the Candidate. The Systray App is responsible for collecting the following information from the Candidate's computer during an active interview session:  
+  * Screenshots of the Candidate's screen activity.  
+  * Information about running processes on the Candidate's computer.  
+  * Basic user information (e.g., operating system username).  
+  * Basic hardware information (e.g., operating system type, CPU, RAM). (collectively, "Candidate Data"). This Candidate Data is then securely transferred to our backend server and made accessible in real-time or near real-time to the Interviewer through the Google Meeting Add-on.
 
-**Guest Mode:** The Add-on also offers a "Guest Mode" which allows meeting participants other than the Host ("Guests") to participate in interactive features initiated by the Host. **Guest Mode involves the collection of screenshots, running processes, or open Chrome tabs from the Guest's machine by our Add-on.**
+**2\. User Roles and Responsibilities**
 
-**2. Acceptance of Terms**
+* **Interviewer:**  
+  * Represents the entity or individual conducting the interview and evaluating the Candidate.  
+  * Is responsible for obtaining any necessary consents from the Candidate for the collection, processing, and viewing of their Candidate Data through the Software, beyond the consent obtained through the Candidate's acceptance of these Terms. This includes ensuring compliance with all applicable privacy and data protection laws.  
+  * Agrees to use the Candidate Data accessed through the Software solely for the legitimate purpose of evaluating the Candidate's suitability for the relevant role or opportunity.  
+  * Agrees not to use the Candidate Data for any unlawful, discriminatory, or unauthorized purposes.  
+* **Candidate:**  
+  * Acknowledges and agrees that by using the Software in Candidate Mode, they consent to the installation of the Systray App on their computer for the duration of the interview.  
+  * Acknowledges and expressly consents to the collection of Candidate Data by the Systray App and its transmission to the Interviewer via our backend server, as described in Section 1\.  
+  * Is responsible for ensuring they have the necessary permissions and authority to install and run the Systray App on the computer used for the interview.  
+  * Is responsible for closing or securing any personal, sensitive, or confidential applications, files, or information on their computer before and during the interview to prevent their inadvertent capture as part of the Candidate Data. We are not responsible for the capture of any such unintended information.
 
-By installing, clicking an "accept" or similar button or checkbox if available, or by accessing or using the Add-on, you affirm that you are of legal age to enter into these Terms, or, if you are not, that you have obtained parental or guardian consent to enter into these Terms. You also affirm that you have read, understood, and agree to be bound by these Terms. If you are using the Add-on on behalf of an organization or entity, you represent and warrant that you have the authority to bind that organization or entity to these Terms, and in such event, "you" and "your" will refer to that organization or entity.
+**3\. License to Use the Software**
 
-**3. Privacy Policy**
+Subject to your full compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to install and use the Software solely for its intended purpose as described herein and in accordance with your designated role (Interviewer or Candidate).
 
-Your privacy is critically important to us. Our collection, use, storage, and disclosure of personal information, including the sensitive data described in Section 1, are governed by our Privacy Policy, which is available at [**Insert Link to Your Privacy Policy Here**]. You must read and agree to the Privacy Policy before using the Add-on. The Privacy Policy is incorporated by reference into these Terms and forms an integral part of this agreement.
+**4\. Data Collection, Privacy, and Security**
 
-**4. User Eligibility and Responsibilities**
+* **Data Collected:** As detailed in Section 1, the Software collects Candidate Data.  
+* **Purpose of Collection:** Candidate Data is collected and transmitted to the Interviewer to assist in the fair and effective evaluation of the Candidate's skills, abilities, and engagement during an interview.  
+* **Data Handling and Transmission:** Candidate Data is transferred from the Candidate's computer to our backend server and then made accessible to the Interviewer. We will implement commercially reasonable technical and organizational measures to protect the security, confidentiality, and integrity of Candidate Data during its transmission and temporary storage (if any) on our servers. However, no method of transmission over the Internet or method of electronic storage is 100% secure.  
+* **Privacy Policy:** Your use of the Software is also governed by our Privacy Policy available at [https://binp.github.io/aiproctor/privacy-policy.html](https://binp.github.io/aiproctor/privacy-policy.html), which is incorporated by reference into these Terms. Please review the Privacy Policy to understand our practices concerning the collection and use of information.  
+* **Data Retention:** Candidate Data is primarily intended for real-time viewing by the Interviewer. We will define and adhere to a data retention policy for any Candidate Data that may be temporarily stored on our backend servers, aiming to minimize the storage period. Candidate Data is deleted within 180 days after the interview concludes.
 
-* You must be at least 18 years old or the age of legal majority in your jurisdiction to use this Add-on as a Host.
-* You are responsible for maintaining the confidentiality of any account information related to your use of the Add-on.
-* You agree to use the Add-on in compliance with all applicable local, state, national, and international laws, rules, and regulations, including but not limited to privacy laws (e.g., GDPR, CCPA), data protection laws, and laws related to recording or monitoring communications and employee monitoring (if applicable).
-* You are solely responsible for your conduct while using the Add-on and for any data, text, information, graphics, photos, profiles, audio and video clips, links, and other content that you submit, post, and display via the Add-on.
+**5\. Consent**
 
-* **Host's Responsibility for Consent and Lawful Use (CRUCIAL CLAUSE):**
-    * **Host Consent to Data Collection:** By activating and using the "Host Mode" features that collect screenshots, information on running processes, or open Chrome tabs, you, as the Host, explicitly consent to this data collection by the Add-on as described in these Terms and our Privacy Policy.
-    * **Responsibility for Participant Notice and Consent:** If you, as the Host, use the Add-on in a manner that might capture information (including images, screen content, voice, or any personally identifiable information) related to other participants (Guests) in a Google Meet session, **you are solely responsible for obtaining all necessary and legally compliant notices, consents, and authorizations from such participants BEFORE initiating any such data collection.** This includes, but is not limited to, informing them clearly and conspicuously about:
-        * The fact that the Add-on is in use.
-        * What specific data will be collected by your use of the Add-on (e.g., screenshots of the meeting, potentially including their image or shared screen).
-        * The purpose(s) of this data collection.
-        * How the data will be used, stored, and by whom it might be accessed (e.g., by you, the Host, and potentially your organization).
-        * Their rights regarding their data.
-    * You agree to indemnify and hold us harmless against any claims, damages, losses, or liabilities arising from your failure to obtain proper notice and consent from meeting participants or any other unlawful or unethical use of the Add-on.
-    * We strongly recommend providing a clear verbal and/or written disclosure to all participants at the beginning of any meeting where such features of the Add-on will be used. You should also consider the policies of your own organization regarding monitoring and recording.
+By using the Software in Candidate Mode, the Candidate explicitly:
 
-**5. License to Use the Add-on**
+* Consents to the installation and operation of the Systray App on their computer.  
+* Consents to the collection of Candidate Data by the Systray App.  
+* Consents to the transmission of Candidate Data to the Interviewer via our backend server.
 
-Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to install and use the Add-on for its intended purpose as described herein and in any accompanying documentation.
+The Interviewer is responsible for clearly informing the Candidate about the use of Interview Proctor and its data collection functionalities before the interview begins.
 
-**6. Intellectual Property Rights**
+**6\. Acceptable Use Policy**
 
-All rights, title, and interest in and to the Add-on, including all associated intellectual property rights (such as copyrights, trademarks, patents, trade secrets, and know-how), are and will remain the exclusive property of [Your Company Name/Your Name] and its licensors. These Terms do not grant you any rights to use our trademarks, logos, domain names, or other brand features without our prior written consent.
+You agree not to use the Software to:
 
-**7. User-Generated Content and Data**
+* Violate any applicable local, state, national, or international law or regulation.  
+* Infringe upon or violate our intellectual property rights or the intellectual property rights of others.  
+* Transmit any material that is unlawful, abusive, harassing, defamatory, libelous, invasive of another's privacy, or is harmful to minors in any way.  
+* Attempt to gain unauthorized access to any part of the Software, other accounts, computer systems, or networks connected to the Software.  
+* Reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code or underlying ideas or algorithms of the Software.  
+* Modify, adapt, translate, or create derivative works based on the Software.  
+* Rent, lease, lend, sell, sublicense, assign, distribute, publish, transfer, or otherwise make available the Software, or any features or functionality of the Software, to any third party for any reason, except as expressly permitted for its intended use.  
+* Remove, delete, alter, or obscure any trademarks or any copyright, trademark, patent, or other intellectual property or proprietary rights notices from the Software.  
+* Interfere with or disrupt the integrity or performance of the Software or the data contained therein.
 
-You retain ownership of any data or content you, as a Host, collect or generate through your use of the Add-on's features (e.g., screenshots, lists of processes/tabs) ("Host Data"). However, by using the Add-on, you grant us a limited, worldwide, royalty-free license to access, use, process, reproduce, distribute, display, and transmit Host Data solely to the extent necessary to:
-* Provide, maintain, and improve the Add-on's services to you.
-* Prevent or address service, security, support, or technical issues.
-* Comply with law or legitimate governmental request.
-* Enforce these Terms.
-We will handle Host Data in accordance with our Privacy Policy.
+**7\. Intellectual Property Rights**
 
-**8. Prohibited Uses**
+The Software, including its visual interfaces, graphics, design, compilation, information, data, computer code (including source code and object code), products, software, services, and all other elements of the Software ("Materials") are protected by intellectual property and other laws. All Materials included in the Software are the property of Binbin Peng or its third-party licensors. Except as expressly authorized by us, you may not make use of the Materials. We reserve all rights to the Materials not granted expressly in these Terms.
 
-You agree not to (and not to allow any third party to):
-* Use the Add-on for any illegal, fraudulent, or unauthorized purpose, or in any manner that infringes upon the rights of others.
-* Collect, store, or share data in violation of any applicable privacy laws or without all necessary and legally compliant consents, notices, and authorizations.
-* Use the Add-on to capture sensitive personal information (e.g., financial information, health information, government-issued identifiers) unless explicitly permitted by law and with explicit consent for such specific collection.
-* Reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code or underlying ideas or algorithms of the Add-on.
-* Modify, adapt, translate, or create derivative works based on the Add-on.
-* Remove, obscure, or alter any proprietary rights notices (including copyright and trademark notices) that may be affixed to or contained within the Add-on.
-* Use the Add-on to harass, abuse, stalk, threaten, defame, or otherwise infringe or violate the rights of any other party.
-* Interfere with or disrupt the integrity or performance of the Add-on, Google Meet, or the data contained therein.
-* Use the Add-on to transmit viruses, worms, or any other malicious software or code.
-* Attempt to gain unauthorized access to the Add-on or its related systems or networks.
+**8\. Disclaimers of Warranties**
 
-**9. Fees, Payments, and Subscriptions**
+THE SOFTWARE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITHOUT ANY WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE.
 
-* **Guest Mode:** Guest Mode of the Add-on is provided free of charge.
-* **Host Mode Trial:** We may offer a one-time free trial period for some or all "Host Mode" features ("Trial Period"). The duration and terms of the Trial Period will be specified at the time of sign-up or activation. We currently offer a two (2) month free Trial Period for Host Mode, commencing from the date you first activate or use a Host Mode feature.
-* **Host Mode Subscription:** To access and use "Host Mode" features after the Trial Period, or if no trial is offered, you must purchase a subscription ("Subscription"). Subscription fees, billing cycles (e.g., monthly, annually), and payment terms will be detailed on our website [Insert Link to your Pricing Page/Section on your Website] or within the Google Workspace Marketplace listing for the Add-on at the time of purchase.
-* **Automatic Renewal:** Unless you cancel your Subscription through your account management page or by contacting us at [Your Support Email] before the end of the current subscription period, your Subscription will automatically renew for successive periods of the same duration as the original term. You authorize us (or our third-party payment processor) to charge your designated payment method for the renewal fee at the then-current rates.
-* **Cancellation:** You may cancel your Subscription at any time. Cancellation will be effective at the end of the current billing cycle. No refunds or credits will be provided for partial subscription periods or unused services, except as may be required by applicable law or as expressly stated otherwise by us.
-* **Price Changes:** We reserve the right to change our Subscription fees. We will provide you with reasonable prior notice of any price changes, for example, by email or an in-app notification. If you do not agree to the price change, you must cancel your Subscription before the change takes effect. Your continued use of the Host Mode after the price change constitutes your agreement to pay the modified Subscription fee.
-* **Payment Information:** You agree to provide current, complete, and accurate purchase and account information for all purchases made via the Add-on or our website. You agree to promptly update your account and other information, including your email address and credit card numbers and expiration dates, so that we can complete your transactions and contact you as needed. All payments are non-refundable except as expressly stated in these Terms or as required by applicable law.
-* **Taxes:** You are responsible for all applicable sales, use, value-added, or other taxes, duties, or governmental fees payable in connection with your Subscription, excluding taxes based on our net income.
+BINBIN PENG DOES NOT WARRANT THAT THE SOFTWARE WILL BE ACCURATE, COMPLETE, RELIABLE, CURRENT, SECURE, UNINTERRUPTED, ERROR-FREE, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS, OR THAT DEFECTS WILL BE CORRECTED. YOU ACKNOWLEDGE THAT YOUR USE OF THE SOFTWARE IS AT YOUR SOLE RISK.
 
-**10. Termination**
+WE ARE NOT RESPONSIBLE FOR THE CONDUCT OF ANY INTERVIEWER OR CANDIDATE, THE CONTENT OR ACCURACY OF ANY CANDIDATE DATA, OR THE OUTCOME OF ANY INTERVIEW CONDUCTED USING THE SOFTWARE.
 
-* **By You:** You may terminate these Terms at any time by uninstalling the Add-on and ceasing all use of it. If you have an active Subscription, refer to the cancellation policy in Section 9.
-* **By Us:** We may, in our sole discretion, suspend or terminate your access to and use of the Add-on, with or without notice, for any reason, including, without limitation, if we believe you have violated these Terms, our Privacy Policy, or engaged in conduct that is harmful to us, other users, or third parties, or if required by law or due to a change in Google's policies affecting the Add-on.
-* **Effect of Termination:** Upon termination, your license to use the Add-on will immediately cease. You must cease all use of the Add-on and uninstall it. Provisions of these Terms that by their nature should survive termination will survive (including, but not limited to, sections on Intellectual Property, User-Generated Content and Data (regarding our limited license for operational purposes during your use), Disclaimers, Limitations of Liability, Indemnification, and Governing Law). Upon termination of a paid Subscription, you will not be entitled to any refund of prepaid fees, except as expressly provided herein or required by law.
+**9\. Limitation of Liability**
 
-**11. Disclaimers of Warranties**
+TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL BINBIN PENG, ITS AFFILIATES, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, SUPPLIERS, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES) ARISING OUT OF OR RELATING TO YOUR ACCESS TO OR USE OF, OR YOUR INABILITY TO ACCESS OR USE, THE SOFTWARE OR ANY MATERIALS OR CONTENT ON THE SOFTWARE, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), STATUTE, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT WE HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-THE ADD-ON IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT ANY WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, RELIABILITY, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE.
+TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, THE AGGREGATE LIABILITY OF Binbin Peng TO YOU FOR ALL CLAIMS ARISING OUT OF OR RELATING TO THE USE OF OR ANY INABILITY TO USE ANY PORTION OF THE SOFTWARE OR OTHERWISE UNDER THESE TERMS, WHETHER IN CONTRACT, TORT, OR OTHERWISE, IS LIMITED TO THE AMOUNT YOU HAVE PAID TO US FOR ACCESS TO AND USE OF THE SOFTWARE IN THE 12 MONTHS PRIOR TO THE EVENT OR CIRCUMSTANCE GIVING RISE TO THE CLAIM.
 
-WE DO NOT WARRANT THAT THE ADD-ON WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS, OR THAT ANY DEFECTS WILL BE CORRECTED. YOU ACKNOWLEDGE THAT YOUR USE OF THE ADD-ON IS AT YOUR SOLE RISK.
+SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
 
-WE MAKE NO WARRANTY REGARDING THE ACCURACY, TIMELINESS, TRUTHFULNESS, COMPLETENESS, OR RELIABILITY OF ANY INFORMATION OR DATA OBTAINED OR COLLECTED THROUGH THE ADD-ON. THE DATA COLLECTED (INCLUDING SCREENSHOTS, INFORMATION ON RUNNING PROCESSES, AND OPEN CHROME TABS) IS BASED ON THE STATE OF THE HOST'S MACHINE AT THE TIME OF COLLECTION. WE ARE NOT RESPONSIBLE FOR THE CONTENT, NATURE, ACCURACY, OR LEGALITY OF SUCH DATA, NOR FOR THE HOST'S USE OR INTERPRETATION OF THIS DATA. THE RESPONSIBILITY FOR ENSURING THE LAWFUL AND ETHICAL COLLECTION AND USE OF SUCH DATA RESTS SOLELY WITH THE HOST.
+**10\. Indemnification**
 
-NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM US OR THROUGH THE ADD-ON WILL CREATE ANY WARRANTY NOT EXPRESSLY STATED HEREIN.
+You agree to defend, indemnify, and hold harmless Binbin Peng and its officers, directors, employees, consultants, affiliates, subsidiaries, and agents from and against any and all claims, liabilities, damages, losses, and expenses, including reasonable attorneys' fees and costs, arising out of or in any way connected with: (a) your access to, use of, or alleged use of the Software; (b) your violation of any portion of these Terms, any representation, warranty, or agreement referenced in these Terms, or any applicable law or regulation; (c) your violation of any third-party right, including any intellectual property right or publicity, confidentiality, other property, or privacy right; or (d) any dispute or issue between you and any third party. We reserve the right, at our own expense, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you (without limiting your indemnification obligations with respect to that matter), and in that case, you agree to cooperate with our defense of that claim.
 
-**12. Limitation of Liability**
+**11\. Termination**
 
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL AI PROCTOR, ITS AFFILIATES, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, SUPPLIERS, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES) ARISING OUT OF OR RELATING TO YOUR ACCESS TO OR USE OF, OR INABILITY TO ACCESS OR USE, THE ADD-ON, OR ANY CONTENT OR INFORMATION OBTAINED FROM THE ADD-ON, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), STATUTE, OR ANY OTHER LEGAL THEORY, WHETHER OR NOT WE HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGE, AND EVEN IF A REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.
+We may, in our sole discretion, terminate or suspend your access to all or part of the Software at any time, with or without notice, for any reason, including, without limitation, if we believe that you have violated or acted inconsistently with the letter or spirit of these Terms.
 
-OUR TOTAL AGGREGATE LIABILITY TO YOU FOR ALL CLAIMS ARISING OUT OF OR RELATING TO THE ADD-ON OR THESE TERMS, IN ANY CIRCUMSTANCE, SHALL NOT EXCEED THE GREATER OF (A) THE TOTAL AMOUNT OF FEES, IF ANY, PAID BY YOU TO US FOR USE OF THE HOST MODE OF THE ADD-ON DURING THE SIX (6) MONTH PERIOD PRIOR TO THE EVENT GIVING RISE TO THE LIABILITY, OR (B) ONE HUNDRED U.S. DOLLARS ($100.00).
+Upon termination, your right to use the Software will immediately cease. All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity, and limitations of liability.
 
-SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES. ACCORDINGLY, SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
+**12\. Modifications to Terms**
 
-**13. Indemnification**
+We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will make reasonable efforts to provide at least 15 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
 
-You agree to defend, indemnify, and hold harmless AI Proctor and its officers, directors, employees, affiliates, agents, licensors, and suppliers from and against any and all claims, actions, suits, proceedings, damages, obligations, losses, liabilities, costs, debt, and expenses (including but not limited to attorney's fees, and costs of investigation) arising from or related to:
-* Your use of and access to the Add-on;
-* Your violation of any term of these Terms or our Privacy Policy;
-* Your violation of any third-party right, including without limitation any copyright, property, privacy right, or data protection right (especially in relation to your obligations to provide notice and obtain consent from meeting participants as outlined in Section 4);
-* Any claim that Host Data or your use of the Add-on caused damage to a third party; or
-* Your violation of any applicable laws, rules, or regulations.
-This defense and indemnification obligation will survive these Terms and your use of the Add-on. We reserve the right to assume the exclusive defense and control of any matter otherwise subject to indemnification by you, in which event you will cooperate with us in asserting any available defenses.
+By continuing to access or use our Software after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, in whole or in part, please stop using the Software.
 
-**14. Third-Party Services and Links**
+**13\. Governing Law and Jurisdiction**
 
-The Add-on operates in conjunction with Google Meet and the Google Workspace platform, services provided by Google LLC. Your use of Google Meet and Google Workspace is subject to Google's own terms of service and privacy policies. We are not responsible or liable for Google Meet, Google Workspace, or their operations, nor for any data processed solely by Google. The Add-on may also contain links to third-party websites or services that are not owned or controlled by us. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites or services. You further acknowledge and agree that we shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods, or services available on or through any such websites or services.
+These Terms shall be governed by and construed in accordance with the laws of the State of California, United States, without regard to its conflict of law principles. You agree to submit to the personal and exclusive jurisdiction of the state and federal courts located within Mendocino County, California for the purpose of litigating all such claims or disputes.
 
-**15. Modifications to the Add-on and Terms**
+**14\. Severability**
 
-* **Modifications to the Add-on:** We reserve the right to modify, enhance, suspend, or discontinue the Add-on (or any part, feature, or content thereof) at any time, temporarily or permanently, with or without notice to you, for example, to make improvements, add new features, comply with legal requirements, or address security concerns. We will not be liable to you or to any third party for any modification, suspension, or discontinuance of the Add-on.
-* **Modifications to Terms:** We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect (e.g., by posting a notice within the Add-on, on our website, or by sending an email to registered users if applicable). What constitutes a material change will be determined at our sole discretion. By continuing to access or use our Add-on after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, in whole or in part, you must stop using the Add-on. It is your responsibility to review these Terms periodically for changes.
+If any provision of these Terms is held by a court or other tribunal of competent jurisdiction to be invalid, illegal, or unenforceable for any reason, such provision shall be eliminated or limited to the minimum extent such that the remaining provisions of the Terms will continue in full force and effect.
 
-**16. Governing Law and Dispute Resolution**
+**15\. Entire Agreement**
 
-These Terms shall be governed by and construed in accordance with the laws of the State of California, United States, without regard to its conflict of law principles.
+These Terms, together with [our Privacy Policy](https://binp.github.io/aiproctor/privacy-policy.html), constitute the sole and entire agreement between you and Binbin Peng regarding the Software and supersede all prior and contemporaneous understandings, agreements, representations, and warranties, both written and oral, regarding the Software.
 
-[**Consult your lawyer to determine the most appropriate dispute resolution mechanism. Options include:**]
+**16\. No Waiver**
 
-* **Option 1: Arbitration (Example Language - MUST BE REVIEWED BY COUNSEL):**
-    "Any dispute, claim, or controversy arising out of or relating to these Terms or the breach, termination, enforcement, interpretation, or validity thereof, including the determination of the scope or applicability of this agreement to arbitrate, shall be determined by arbitration in [City, State of Arbitration] before one (1) arbitrator. The arbitration shall be administered by [e.g., JAMS (Judicial Arbitration and Mediation Services) or American Arbitration Association (AAA)] pursuant to its [e.g., JAMS Streamlined Arbitration Rules & Procedures or AAA Consumer Arbitration Rules]. Judgment on the Award may be entered in any court having jurisdiction. This clause shall not preclude parties from seeking provisional remedies in aid of arbitration from a court of appropriate jurisdiction."
-    **"YOU AND AI PROCTOR AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING. Further, unless both you and we agree otherwise, the arbitrator may not consolidate more than one person's claims, and may not otherwise preside over any form of a representative or class proceeding."** (Ensure class action waiver language is permissible in your jurisdiction).
+No waiver by Binbin Peng of any term or condition set out in these Terms shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition, and any failure of Binbin Peng to assert a right or provision under these Terms shall not constitute a waiver of such right or provision.
 
-* **Option 2: Exclusive Jurisdiction for Courts (Example Language - MUST BE REVIEWED BY COUNSEL):**
-    "You agree that any legal action or proceeding arising out of or relating to these Terms or your use of the Add-on shall be brought exclusively in the federal or state courts located in [County, State of Jurisdiction], and you hereby consent to the personal jurisdiction and venue in such courts and waive any objection as to inconvenient forum."
+**17\. Contact Information**
 
-**17. Entire Agreement**
+If you have any questions about these Terms, please contact us at: [deepjob.2016@gmail.com](mailto:deepjob.2016@gmail.com).
 
-These Terms, together with our Privacy Policy and any other legal notices or terms published by us concerning the Add-on (including, but not limited to, terms on our pricing page or within the Google Workspace Marketplace listing), constitute the entire agreement between you and [Your Company Name/Your Name] concerning your use of the Add-on and supersede all prior or contemporaneous understandings, agreements, representations, and warranties, whether written or oral, regarding such subject matter.
+**Legal Disclaimer:** This Terms of Service document is a sample and is provided for informational purposes only. It does not constitute legal advice. You should consult with a qualified legal professional to ensure that these Terms are appropriate for your specific software, business model, and comply with all applicable laws and regulations in your jurisdiction and the jurisdictions of your users. Binbin Peng is not liable for any issues that may arise from the use of this template.
 
-**18. Severability**
-
-If any provision of these Terms is held to be invalid, illegal, or unenforceable by a court of competent jurisdiction for any reason, such provision shall be modified by the court and interpreted so as to best accomplish the objectives of the original provision to the fullest extent permitted by law, or if modification is not possible, it shall be severed from these Terms, and the remaining provisions of the Terms shall continue in full force and effect.
-
-**19. Waiver**
-
-No waiver by [Your Company Name/Your Name] of any term or condition set forth in these Terms shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition, and any failure of [Your Company Name/Your Name] to assert a right or provision under these Terms shall not constitute a waiver of such right or provision.
-
-**20. Assignment**
-
-You may not assign or transfer these Terms, by operation of law or otherwise, without our prior written consent. Any attempt by you to assign or transfer these Terms, without such consent, will be null and of no effect. We may assign or transfer these Terms, at our sole discretion, without restriction. Subject to the foregoing, these Terms will bind and inure to the benefit of the parties, their successors, and permitted assigns.
-
-**21. Notices**
-
-Any notices or other communications permitted or required hereunder, including those regarding modifications to these Terms, will be in writing and given by us (i) via email (to the address that you provide if you have registered an account or purchased a subscription); (ii) by posting to our website; or (iii) by posting a notice within the Add-on interface. For notices made by e-mail, the date of receipt will be deemed the date on which such notice is transmitted. For notices provided by posting, the date of posting will be deemed the date of notice.
-
-**22. Force Majeure**
-
-We shall not be liable for any failure to perform our obligations hereunder where such failure results from any cause beyond our reasonable control, including, without limitation, mechanical, electronic, or communications failure or degradation, acts of God, war, terrorism, riots, embargoes, acts of civil or military authorities, fire, floods, accidents, pandemics, epidemics, or strikes.
-
-**23. Contact Information**
-
-If you have any questions about these Terms of Service or the Add-on, please contact us at:
-
-Binbin Peng
-Attn: Legal Department / Support
-https://binp.github.io/aiproctor
-
----
-**Reminder: This document is a template and not legal advice. Due to the nature of your add-on (collecting screenshots, process information, and browser tabs), it is absolutely critical that you consult with a qualified legal professional to ensure your Terms of Service and Privacy Policy are fully compliant with all applicable laws and regulations in all jurisdictions where your users are located. Pay particular attention to data privacy laws (like GDPR, CCPA), consent requirements, and any laws related to employee monitoring if your add-on might be used in such contexts.**
